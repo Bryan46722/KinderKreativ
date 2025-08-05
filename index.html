@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="es">
 <head>
         <!-- Meta Pixel Code -->
     <script>
@@ -21,7 +21,7 @@
      
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KinderKreativ - Spielerische Entwicklung für Ihr Kind 🌈</title>
+    <title>KinderKreativ - Actividades Divertidas para Niños 🎨✂️</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Bubblegum+Sans&family=Quicksand:wght@300;400;500;600;700&display=swap');
         
@@ -31,17 +31,14 @@
             box-sizing: border-box;
         }
         
-body {
-    font-family: 'Fredoka', cursive;
-    line-height: 1.6;
-    color: #2c3e50;
-    background: url('images/landing3.png') no-repeat center top,
-                linear-gradient(135deg, #a8e6cf 0%, #dcedc1 50%, #ffd3a5 100%);
-    background-size: contain, cover;
-    background-attachment: scroll;
-    min-height: 100vh;
-    overflow-x: hidden;
-}
+        body {
+            font-family: 'Fredoka', cursive;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 25%, #fecfef 50%, #a8e6cf 75%, #ffd93d 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
         
         .overlay {
             background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(248,250,252,0.05) 100%);
@@ -72,7 +69,7 @@ body {
             font-family: 'Bubblegum Sans', cursive;
             font-size: 1.8rem;
             font-weight: 600;
-            color: #4a90e2;
+            color: #ff6b6b;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
@@ -119,12 +116,12 @@ body {
         
         @media (min-width: 768px) {
             .hero h1 {
-                font-size: 2.6rem;
+                font-size: 2.4rem;
             }
         }
         
         .hero-emoji {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin: 15px 0;
             display: block;
             animation: gentle-bounce 3s ease-in-out infinite;
@@ -132,7 +129,7 @@ body {
         
         @media (min-width: 768px) {
             .hero-emoji {
-                font-size: 3.5rem;
+                font-size: 4rem;
                 margin: 20px 0;
             }
         }
@@ -171,7 +168,7 @@ body {
             padding: 25px;
             margin-bottom: 25px;
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-            border-left: 5px solid #e74c3c;
+            border-left: 5px solid #ff6b6b;
         }
         
         @media (min-width: 768px) {
@@ -201,9 +198,9 @@ body {
             align-items: center;
             margin-bottom: 15px;
             padding: 15px;
-            background: rgba(231,76,60,0.05);
+            background: rgba(255,107,107,0.05);
             border-radius: 12px;
-            border-left: 3px solid #e74c3c;
+            border-left: 3px solid #ff6b6b;
         }
         
         .problem-emoji {
@@ -323,7 +320,7 @@ body {
             background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,250,252,0.8) 100%);
             border-radius: 15px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            border-left: 4px solid #4a90e2;
+            border-left: 4px solid #ff6b6b;
             transition: transform 0.3s ease;
         }
         
@@ -332,9 +329,9 @@ body {
         }
         
         .feature-emoji {
-            font-size: 2rem;
+            font-size: 2.5rem;
             margin-right: 15px;
-            min-width: 50px;
+            min-width: 60px;
         }
         
         .feature-text h3 {
@@ -364,7 +361,7 @@ body {
         
         /* CTA Button Styles */
         .cta-button {
-            background: linear-gradient(45deg, #4a90e2, #357abd);
+            background: linear-gradient(45deg, #ff6b6b, #ee5a5a);
             color: white;
             border: none;
             padding: 16px 25px;
@@ -375,7 +372,7 @@ body {
             cursor: pointer;
             width: 100%;
             margin-bottom: 15px;
-            box-shadow: 0 8px 25px rgba(74,144,226,0.4);
+            box-shadow: 0 8px 25px rgba(255,107,107,0.4);
             transition: all 0.3s ease;
             text-decoration: none;
             display: block;
@@ -391,12 +388,6 @@ body {
             width: auto;
             display: inline-block;
             min-width: 200px;
-        }
-        
-        .cta-button-premium {
-            background: linear-gradient(45deg, #ffd700, #ffed4e);
-            color: #333;
-            box-shadow: 0 8px 25px rgba(255,215,0,0.4);
         }
         
         .cta-button-green {
@@ -424,25 +415,21 @@ body {
         
         .cta-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(74,144,226,0.5);
-        }
-        
-        .cta-button-premium:hover {
-            box-shadow: 0 10px 30px rgba(255,215,0,0.5);
+            box-shadow: 0 10px 30px rgba(255,107,107,0.5);
         }
         
         .cta-button-green:hover {
             box-shadow: 0 10px 30px rgba(39,174,96,0.5);
         }
         
-        /* Offers Section - Updated */
+        /* Offers Section */
         .offers-section {
             background: rgba(255,255,255,0.98);
             border-radius: 20px;
             padding: 25px;
             margin-bottom: 25px;
             box-shadow: 0 12px 35px rgba(0,0,0,0.12);
-            border: 3px solid #9b59b6;
+            border: 3px solid #ff6b6b;
         }
         
         @media (min-width: 768px) {
@@ -467,29 +454,15 @@ body {
             }
         }
         
-        .offers-container {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        
-        @media (min-width: 768px) {
-            .offers-container {
-                flex-direction: row;
-                gap: 25px;
-            }
-        }
-        
         .offer-card {
-            flex: 1;
             background: #ffffff;
             border-radius: 20px;
             overflow: hidden;
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-            border: 2px solid #e9ecef;
+            border: 3px solid #ffd93d;
             transition: all 0.3s ease;
             position: relative;
+            margin-bottom: 20px;
         }
         
         .offer-card:hover {
@@ -497,39 +470,15 @@ body {
             box-shadow: 0 15px 35px rgba(0,0,0,0.15);
         }
         
-        .offer-card.premium {
-            border: 3px solid #ffd700;
-            background: linear-gradient(135deg, #fff9e6 0%, #ffffff 100%);
-        }
-        
-        .premium-badge {
-            position: absolute;
-            top: 15px;
-            right: -10px;
-            background: linear-gradient(45deg, #ff6b6b, #ff8e53);
-            color: white;
-            padding: 5px 20px;
-            font-size: 0.7rem;
-            font-weight: bold;
-            transform: rotate(10deg);
-            border-radius: 15px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-            z-index: 10;
-        }
-        
         .offer-header {
             padding: 25px 20px 15px;
             text-align: center;
-            background: linear-gradient(135deg, rgba(74,144,226,0.05) 0%, rgba(255,255,255,0.8) 100%);
-        }
-        
-        .offer-card.premium .offer-header {
-            background: linear-gradient(135deg, rgba(255,215,0,0.1) 0%, rgba(255,255,255,0.8) 100%);
+            background: linear-gradient(135deg, rgba(255,107,107,0.1) 0%, rgba(255,255,255,0.8) 100%);
         }
         
         .offer-title {
             font-family: 'Bubblegum Sans', cursive;
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             color: #2c3e50;
             margin-bottom: 15px;
         }
@@ -540,7 +489,7 @@ body {
         
         .price-value {
             font-family: 'Bubblegum Sans', cursive;
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             color: #27ae60;
             font-weight: 700;
             display: block;
@@ -549,19 +498,8 @@ body {
         
         .price-period {
             color: #7f8c8d;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             font-weight: 600;
-        }
-        
-        .savings {
-            background: linear-gradient(45deg, #e74c3c, #c0392b);
-            color: white;
-            padding: 4px 12px;
-            border-radius: 15px;
-            font-size: 0.75rem;
-            font-weight: bold;
-            margin-top: 8px;
-            display: inline-block;
         }
         
         .offer-content {
@@ -569,71 +507,50 @@ body {
         }
         
         .offer-highlight {
-            background: linear-gradient(135deg, rgba(74,144,226,0.1) 0%, rgba(255,255,255,0.8) 100%);
-            padding: 12px 15px;
+            background: linear-gradient(135deg, rgba(255,107,107,0.1) 0%, rgba(255,255,255,0.8) 100%);
+            padding: 15px;
             border-radius: 10px;
             text-align: center;
             margin-bottom: 20px;
-            border-left: 4px solid #4a90e2;
-            font-size: 0.9rem;
+            border-left: 4px solid #ff6b6b;
+            font-size: 0.95rem;
             color: #2c3e50;
+            font-weight: 600;
         }
         
-        .premium-highlight {
-            background: linear-gradient(135deg, rgba(255,215,0,0.15) 0%, rgba(255,255,255,0.8) 100%);
-            border-left: 4px solid #ffd700;
-        }
-        
-        .offer-features-grid {
+        .activity-grid {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
             gap: 15px;
             margin-bottom: 25px;
         }
         
-        @media (min-width: 480px) {
-            .offer-features-grid {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-        
-        .feature-group {
+        .activity-item {
             background: rgba(248,249,250,0.8);
             padding: 15px;
             border-radius: 12px;
             border: 1px solid #e9ecef;
+            text-align: center;
         }
         
-        .feature-group h4 {
+        .activity-emoji {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            display: block;
+        }
+        
+        .activity-title {
             font-family: 'Fredoka', cursive;
             font-size: 0.9rem;
             color: #2c3e50;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             font-weight: 600;
         }
         
-        .feature-group ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .feature-group li {
-            font-size: 0.85rem;
-            color: #5a6c7d;
-            margin-bottom: 5px;
-            padding-left: 15px;
-            position: relative;
+        .activity-count {
+            font-size: 0.8rem;
+            color: #7f8c8d;
             font-weight: 500;
-        }
-        
-        .feature-group li::before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: #27ae60;
-            font-weight: bold;
-            font-size: 0.9rem;
         }
         
         /* Trust Indicators */
@@ -767,7 +684,7 @@ body {
             padding: 20px;
             margin-bottom: 15px;
             box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-            border-left: 4px solid #4a90e2;
+            border-left: 4px solid #ff6b6b;
         }
         
         .stars {
@@ -910,37 +827,24 @@ body {
         
         /* Mobile optimizations */
         @media (max-width: 767px) {
-            .offer-card {
-                margin-bottom: 20px;
-            }
-            
-            .offer-header {
-                padding: 20px 15px 10px;
-            }
-            
-            .offer-content {
-                padding: 0 15px 15px;
-            }
-            
-            .price-value {
-                font-size: 1.9rem;
-            }
-            
-            .offer-features-grid {
-                grid-template-columns: 1fr;
+            .activity-grid {
                 gap: 12px;
             }
             
-            .feature-group {
+            .activity-item {
                 padding: 12px;
             }
             
-            .trust-indicators {
-                gap: 15px;
+            .activity-emoji {
+                font-size: 1.5rem;
             }
             
-            .trust-item {
+            .activity-title {
                 font-size: 0.8rem;
+            }
+            
+            .activity-count {
+                font-size: 0.7rem;
             }
         }
         
@@ -963,496 +867,441 @@ body {
 
             <!-- Header -->
            <header class="header">
-               <div class="logo">🌈 KinderKreativ 🌈</div>
-               <div class="trust-badge">💝 Über 3.000 glückliche Familien</div>
+               <div class="logo">🎨 KinderKreativ ✂️</div>
+               <div class="trust-badge">🌟 Más de 5.000 niños felices</div>
            </header>
            
            <!-- Hero Section -->
            <section class="hero">
-               <h1>Endlich entspannte Familienzeit mit sinnvollen Aktivitäten</h1>
-               <span class="hero-emoji">👨‍👩‍👧‍👦💕📚</span>
-               <p>Verwandeln Sie "Mama, mir ist langweilig!" in begeisterte Lernmomente - ganz ohne Bildschirm und Stress</p>
+               <h1>¡Actividades súper divertidas para tu pequeño artista!</h1>
+               <span class="hero-emoji">🎨✂️🔢🐶</span>
+               <p>Transforma "¡Mamá, me aburro!" en momentos de diversión y aprendizaje creativo</p>
                
                <!-- Hero CTA -->
                <div class="hero-cta">
                    <a href="#offers" class="cta-button cta-button-green">
-                       🎯 Unsere Pakete entdecken
+                       🎯 ¡Quiero las actividades!
                    </a>
                </div>
            </section>
            
            <!-- Problem Section -->
            <section class="problem-section fade-in">
-               <h2>Kennen Sie diese Situationen?</h2>
-               
-               <div class="problem-item">
-                   <div class="problem-emoji">😰</div>
-                   <div class="problem-text">
-                       Ihr Kind hängt ständig am Handy oder Tablet und Sie machen sich Sorgen um die Entwicklung
-                   </div>
-               </div>
-               
-               <div class="problem-item">
-                   <div class="problem-emoji">😩</div>
-                   <div class="problem-text">
-                       "Mir ist langweilig!" - und Sie haben keine Ideen für sinnvolle Beschäftigung
-                   </div>
-               </div>
+               <h2>¿Te suena familiar?</h2>
                
                <div class="problem-item">
                    <div class="problem-emoji">📱</div>
                    <div class="problem-text">
-                       Sie möchten die Lernentwicklung fördern, aber ohne teuren Nachhilfeunterricht
+                       Tu hijo pasa demasiado tiempo con pantallas y necesita actividades más creativas
                    </div>
                </div>
                
                <div class="problem-item">
-                   <div class="problem-emoji">⏰</div>
+                   <div class="problem-emoji">😴</div>
                    <div class="problem-text">
-                       Wenig Zeit für aufwendige Aktivitäten, aber trotzdem qualitative Familienzeit
+                       "¡Me aburro!" - y tú ya no sabes qué actividades inventar para entretenerlo
                    </div>
                </div>
                
-               <!-- Section CTA -->
-               <div class="section-cta">
-                   <a href="#offers" class="cta-button cta-button-small">
-                       🛡️ Die Lösung ansehen
-                   </a>
-               </div>
-           </section>
-           
-           <!-- Solution Section -->
-           <section class="solution-section fade-in">
-               <h2>Die Lösung: KinderKreativ Lernhefte</h2>
-               
-               <div class="solution-item">
-                   <div class="solution-emoji">🎨</div>
-                   <div class="solution-text">
-                       <strong>Bildschirmfreie Zeit:</strong> Entspannte Aktivitäten ohne digitale Ablenkung
+               <div class="problem-item">
+                   <div class="problem-emoji">✂️</div>
+                   <div class="problem-text">
+                       Quieres que desarrolle su motricidad fina pero no tienes materiales adecuados
                    </div>
                </div>
                
-               <div class="solution-item">
-                   <div class="solution-emoji">🧠</div>
-                   <div class="solution-text">
-                       <strong>Spielerisches Lernen:</strong> Deutsche Bildungsstandards kindgerecht verpackt
-                   </div>
-               </div>
-               
-               <div class="solution-item">
-                   <div class="solution-emoji">⭐</div>
-                   <div class="solution-text">
-                       <strong>Sofort einsatzbereit:</strong> Einfach ausdrucken und loslegen - wann immer Sie möchten
-                   </div>
-               </div>
-               
-               <div class="solution-item">
-                   <div class="solution-emoji">👪</div>
-                   <div class="solution-text">
-                       <strong>Gemeinsame Zeit:</strong> Aktivitäten, die Familien zusammenbringen
-                   </div>
-               </div>
-           </section>
-           
-           <!-- Features -->
-           <section class="features fade-in">
-               <h2>Was Ihre Familie erhält:</h2>
-               
-               <div class="feature-item">
-                   <div class="feature-emoji">📖</div>
-                   <div class="feature-text">
-                       <h3>Liebevoll gestaltete Arbeitshefte</h3>
-                       <p>Altersgerechte Inhalte nach deutschen Bildungsrichtlinien für Kinder von 1-10 Jahren</p>
-                   </div>
-               </div>
-               
-               <div class="feature-item">
-                   <div class="feature-emoji">🎯</div>
-                   <div class="feature-text">
-                       <h3>Mathematik spielerisch lernen</h3>
-                       <p>Zahlen, Formen und erste Rechenaufgaben durch bunte Ausmalbilder und Rätsel</p>
-                   </div>
-               </div>
-               
-               <div class="feature-item">
-                   <div class="feature-emoji">✏️</div>
-                   <div class="feature-text">
-                       <h3>Feinmotorik entwickeln</h3>
-                       <p>Schwungübungen und Malaktivitäten zur optimalen Vorbereitung auf das Schreiben</p>
-                   </div>
-               </div>
-               
-               <div class="feature-item">
-                   <div class="feature-emoji">🔤</div>
-                   <div class="feature-text">
-                       <h3>Sprachentwicklung fördern</h3>
-                       <p>Buchstaben erkennen, Wortschatz erweitern und erste Leseversuche spielerisch unterstützen</p>
-                   </div>
-               </div>
-               
-               <div class="feature-item">
-                   <div class="feature-emoji">🏠</div>
-                   <div class="feature-text">
-                       <h3>Flexibel zuhause nutzbar</h3>
-                       <p>Hochwertige PDF-Dateien zum unbegrenzten Ausdrucken - perfekt für Geschwisterkinder</p>
-                   </div>
-               </div>
-               
-               <!-- Section CTA -->
-               <div class="section-cta">
-                   <a href="#offers" class="cta-button cta-button-small cta-button-green">
-                       ✨ Jetzt Paket wählen
-                   </a>
-               </div>
-           </section>
-           
-           <!-- Offers Section -->
-           <section class="offers-section fade-in" id="offers">
-               <h2>Wählen Sie das passende Paket für Ihre Familie:</h2>
-               
-               <div class="offers-container">
-                   <!-- Standard Offer -->
-                   <div class="offer-card">
-                       <div class="offer-header">
-                           <h3 class="offer-title">🎨 Basis-Paket</h3>
-                           <div class="offer-price">
-                               <span class="price-value">12,90€</span>
-                               <span class="price-period">Einmalzahlung</span>
-                           </div>
+               <div class="problem-item">
+                   <div class="problem-emoji">🎨</div>
+                   <div class="problem-text">
+                       Buscas actividades educativas que sean divertidas y no aburridas
                        </div>
-                       
-                       <div class="offer-content">
-                           <div class="offer-highlight">
-                               <strong>Perfect zum Ausprobieren!</strong>
-                           </div>
-                           
-                           <div class="offer-features-grid">
-                               <div class="feature-group">
-                                   <h4>📚 Inhalte</h4>
-                                   <ul>
-                                       <li>30 Ausmalbilder</li>
-                                       <li>Zahlen 1-20</li>
-                                       <li>Erste Buchstaben</li>
-                                   </ul>
-                               </div>
-                               
-                               <div class="feature-group">
-                                   <h4>✨ Extras</h4>
-                                   <ul>
-                                       <li>Sofort-Download</li>
-                                       <li>Unbegrenzt drucken</li>
-                                       <li>30-Tage Garantie</li>
-                                   </ul>
-                               </div>
-                           </div>
-                       </div>
-                       
-                       <a href="https://pay.hotmart.com/R101143240B?checkoutMode=10" class="cta-button" target="_blank">
-                           Basis-Paket wählen
-                       </a>
-                   </div>
-                   
-                   <!-- Premium Offer -->
-                   <div class="offer-card premium">
-                       <div class="premium-badge">BELIEBT</div>
-                       
-                       <div class="offer-header">
-                           <h3 class="offer-title">✨ Premium-Paket</h3>
-                           <div class="offer-price">
-                               <span class="price-value">17,90€</span>
-                               <span class="price-period">Einmalzahlung</span>
-                               <div class="savings">Spare 40% gegenüber Einzelkauf!</div>
-                           </div>
-                       </div>
-                       
-                       <div class="offer-content">
-                           <div class="offer-highlight premium-highlight">
-                               <strong>🎯 Komplettlösung für die ganze Familie!</strong>
-                           </div>
-                           
-                           <div class="offer-features-grid">
-                               <div class="feature-group">
-                                   <h4>📚 Mehr Inhalte</h4>
-                                   <ul>
-                                       <li>50 Lernaktivitäten</li>
-                                       <li>Zahlen 1-100</li>
-                                       <li>Komplettes Alphabet</li>
-                                       <li>Wortschatz-Spiele</li>
-                                   </ul>
-                               </div>
-                               
-                               <div class="feature-group">
-                                   <h4>🎁 Bonus</h4>
-                                   <ul>
-                                       <li>Eltern-Leitfaden</li>
-                                       <li>Logik-Rätsel</li>
-                                       <li>Alles aus Basis-Paket</li>
-                                       <li>Lebenslanger Support</li>
-                                   </ul>
-                               </div>
-                           </div>
-                       </div>
-                       
-                       <a href="https://pay.hotmart.com/I101144178L?checkoutMode=10" class="cta-button cta-button-premium" target="_blank">
-                           Premium-Paket sichern
-                       </a>
-                   </div>
-               </div>
-               
-               <!-- Trust indicators -->
-               <div class="trust-indicators">
-                   <div class="trust-item">
-                       <span class="trust-icon">🔒</span>
-                       <span>Sichere Zahlung</span>
-                   </div>
-                   <div class="trust-item">
-                       <span class="trust-icon">⚡</span>
-                       <span>Sofort verfügbar</span>
-                   </div>
-                   <div class="trust-item">
-                       <span class="trust-icon">🛡️</span>
-                       <span>30-Tage Garantie</span>
-                   </div>
-               </div>
-           </section>
-           
-           <!-- Benefits -->
-           <section class="benefits fade-in">
-               <h2>Warum Eltern KinderKreativ wählen:</h2>
-               
-               <div class="benefit-item">
-                   <div class="benefit-icon">🧠</div>
-                   <div class="benefit-text">
-                       <strong>Pädagogisch wertvoll:</strong> Entwickelt nach neuesten Erkenntnissen der Frühpädagogik
-                   </div>
-               </div>
-               
-               <div class="benefit-item">
-                   <div class="benefit-icon">⏱️</div>
-                   <div class="benefit-text">
-                       <strong>Sofort verfügbar:</strong> Keine Wartezeit - direkt nach dem Kauf nutzbar
-                   </div>
-               </div>
-               
-               <div class="benefit-item">
-                   <div class="benefit-icon">💰</div>
-                   <div class="benefit-text">
-                       <strong>Preiswert:</strong> Günstiger als ein einziger Besuch im Spielzeugladen
-                   </div>
-               </div>
-               
-               <div class="benefit-item">
-                   <div class="benefit-icon">👨‍👩‍👧‍👦</div>
-                   <div class="benefit-text">
-                       <strong>Familienzeit:</strong> Gemeinsame Aktivitäten stärken die Bindung zu Ihrem Kind
-                   </div>
-               </div>
-               
-               <div class="benefit-item">
-                   <div class="benefit-icon">🌱</div>
-                   <div class="benefit-text">
-                       <strong>Nachhaltig:</strong> Immer wieder verwendbar - perfekt auch für Geschwisterkinder
-                   </div>
-               </div>
-               
-               <!-- Section CTA -->
-               <div class="section-cta">
-                   <a href="#offers" class="cta-button cta-button-small" style="margin-top: 15px;">
-                       🎯 Jetzt bestellen
-                   </a>
-               </div>
-           </section>
-           
-           <!-- Testimonials -->
-           <section class="testimonials fade-in">
-               <h2>Das sagen begeisterte Eltern:</h2>
-               
-               <div class="testimonial">
-                   <div class="stars">⭐⭐⭐⭐⭐</div>
-                   <p>"Endlich habe ich eine sinnvolle Beschäftigung für meine 4-jährige Emma gefunden! Sie lernt spielerisch und ich habe wieder Zeit für andere Dinge. Das Basis-Paket war perfekt für den Einstieg."</p>
-                   <div class="testimonial-author">- Maria S., Berlin</div>
-               </div>
-               
-               <div class="testimonial">
-                   <div class="stars">⭐⭐⭐⭐⭐</div>
-                   <p>"Mein Sohn (6 Jahre) hatte Schwierigkeiten in Mathe. Seit wir die Premium-Hefte nutzen, macht er große Fortschritte und hat sogar Spaß dabei! Der Eltern-Leitfaden hilft mir sehr."</p>
-                   <div class="testimonial-author">- Thomas K., München</div>
-               </div>
-               
-               <div class="testimonial">
-                   <div class="stars">⭐⭐⭐⭐⭐</div>
-                   <p>"Als alleinerziehende Mutter bin ich oft gestresst. Diese Hefte geben mir 1-2 Stunden Ruhe, während meine Zwillinge (5 Jahre) sinnvoll beschäftigt sind. Danke!"</p>
-                   <div class="testimonial-author">- Sandra L., Hamburg</div>
-               </div>
-               
-               <div class="testimonial">
-                   <div class="stars">⭐⭐⭐⭐⭐</div>
-                   <p>"Perfekt für regnerische Tage! Meine Kinder (3 und 7 Jahre) sind beide begeistert. Jeder findet passende Aufgaben. Das Premium-Paket lohnt sich wirklich."</p>
-                   <div class="testimonial-author">- Julia M., Köln</div>
-               </div>
-           </section>
-           
-           <!-- Guarantee -->
-           <section class="guarantee fade-in">
-               <span class="guarantee-icon">🛡️</span>
-               <h3>30-Tage Zufriedenheitsgarantie</h3>
-               <p>Wir sind so überzeugt von der Qualität unserer Lernhefte, dass wir Ihnen eine risikofreie 30-Tage-Testphase anbieten. Nicht zufrieden? Geld zurück - ohne Fragen!</p>
-               
-               <!-- Section CTA -->
-               <div class="section-cta">
-                   <a href="#offers" class="cta-button cta-button-small cta-button-green" style="margin-top: 15px;">
-                       🛡️ Risikofrei testen
-                   </a>
-               </div>
-           </section>
-           
-           <!-- FAQ -->
-           <section class="faq fade-in">
-               <h2>Häufige Fragen von Eltern</h2>
-               
-               <div class="faq-item">
-                   <div class="faq-question">🤔 Sind die Inhalte wirklich altersgerecht?</div>
-                   <div class="faq-answer">Ja! Unsere Materialien wurden von Pädagogen nach deutschen Bildungsstandards entwickelt und sind perfekt auf verschiedene Altersgruppen abgestimmt.</div>
-               </div>
-               
-               <div class="faq-item">
-                   <div class="faq-question">📱 Wie schnell erhalte ich die Materialien?</div>
-                   <div class="faq-answer">Sofort nach dem Kauf erhalten Sie eine E-Mail mit dem Download-Link. Sie können direkt loslegen!</div>
-               </div>
-               
-               <div class="faq-item">
-                   <div class="faq-question">🖨️ Welchen Drucker brauche ich?</div>
-                   <div class="faq-answer">Jeder normale Tintenstrahldrucker reicht aus. Die PDFs sind so optimiert, dass sie auch in schwarz-weiß gut aussehen.</div>
-               </div>
-               
-               <div class="faq-item">
-                   <div class="faq-question">👶 Mein Kind ist erst 3 Jahre alt - ist das nicht zu früh?</div>
-                   <div class="faq-answer">Nein! Gerade in diesem Alter ist spielerisches Lernen besonders wertvoll. Die Materialien enthalten auch einfache Übungen für die Kleinsten.</div>
-               </div>
-               
-               <div class="faq-item">
-                   <div class="faq-question">💭 Was ist der Unterschied zwischen den Paketen?</div>
-                   <div class="faq-answer">Das Basis-Paket (12,90€) eignet sich perfekt zum Ausprobieren. Das Premium-Paket (17,90€) bietet mehr Inhalte, erweiterte Übungen und einen wertvollen Eltern-Leitfaden.</div>
-               </div>
-               
-               <div class="faq-item">
-                   <div class="faq-question">🔄 Kann ich das Paket später upgraden?</div>
-                   <div class="faq-answer">Ja! Falls Sie mit dem Basis-Paket starten und später upgraden möchten, zahlen Sie nur die Differenz.</div>
-               </div>
-           </section>
-           
-           <!-- Final CTA -->
-           <section class="offers-section fade-in">
-               <h2>Starten Sie noch heute in eine entspanntere Familienzeit</h2>
-               
-               <div class="offers-container">
-                   <div class="offer-card">
-                       <h3 class="offer-title">🎨 Basis-Paket</h3>
-                       <div class="offer-price">
-                           <div class="price-value">12,90€</div>
-                       </div>
-                       <a href="https://pay.hotmart.com/R101143240B?checkoutMode=10" class="cta-button" target="_blank">
-                           Jetzt starten
-                       </a>
-                   </div>
-                   
-                   <div class="offer-card premium">
-                       <h3 class="offer-title">✨ Premium-Paket</h3>
-                       <div class="offer-price">
-                           <div class="price-value">17,90€</div>
-                       </div>
-                       <a href="https://pay.hotmart.com/I101144178L?checkoutMode=10" class="cta-button cta-button-premium" target="_blank">
-                           Premium wählen
-                       </a>
-                   </div>
-               </div>
-               
-               <div style="text-align: center; margin-top: 20px; font-size: 0.9rem; color: #7f8c8d; line-height: 1.5;">
-                   ✅ Sofortiger Download nach Zahlung<br>
-                   ✅ Sichere Bezahlung über PayPal & Kreditkarte<br>
-                   ✅ 30-Tage Geld-zurück-Garantie<br>
-                   ✅ Lebenslanger Zugriff auf alle Materialien
-               </div>
-           </section>
-           
-           <!-- Footer -->
-           <footer class="footer">
-               <p>© 2025 KinderKreativ. Alle Rechte vorbehalten.</p>
-               <p style="margin-top: 10px;">
-
-               </p>
-               <p style="margin-top: 15px; font-size: 0.75rem;">
-                   <a href="#" style="color: #7f8c8d; text-decoration: none;">Impressum</a> | 
-                   <a href="#" style="color: #7f8c8d; text-decoration: none;">Datenschutz</a> | 
-                   <a href="#" style="color: #7f8c8d; text-decoration: none;">AGB</a>
-               </p>
-           </footer>
-       </div>
-   </div>
-   
-   <script>
-       // Smooth scroll animations
-       const observerOptions = {
-           threshold: 0.1,
-           rootMargin: '0px 0px -50px 0px'
-       };
-       
-       const observer = new IntersectionObserver(function(entries) {
-           entries.forEach(entry => {
-               if (entry.isIntersecting) {
-                   entry.target.classList.add('visible');
-               }
-           });
-       }, observerOptions);
-       
-       // Observe all fade-in elements
-       document.addEventListener('DOMContentLoaded', function() {
-           const fadeElements = document.querySelectorAll('.fade-in');
-           fadeElements.forEach(element => {
-               observer.observe(element);
-           });
-           
-           // Add smooth scrolling to anchor links
-           document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-               anchor.addEventListener('click', function (e) {
-                   e.preventDefault();
-                   const target = document.querySelector(this.getAttribute('href'));
-                   if (target) {
-                       target.scrollIntoView({
-                           behavior: 'smooth',
-                           block: 'start'
-                       });
-                   }
-               });
-           });
-           
-           // Add click effects to buttons
-           const buttons = document.querySelectorAll('.cta-button');
-           buttons.forEach(button => {
-               button.addEventListener('click', function(e) {
-                   this.style.transform = 'scale(0.95)';
-                   setTimeout(() => {
-                       this.style.transform = 'scale(1)';
-                   }, 150);
-               });
-           });
-       });
-       
-       // Add hover effects for desktop
-       if (window.innerWidth > 768) {
-           document.addEventListener('DOMContentLoaded', function() {
-               const cards = document.querySelectorAll('.offer-card, .feature-item');
-               cards.forEach(card => {
-                   card.addEventListener('mouseenter', function() {
-                       this.style.transform = 'translateY(-5px)';
-                   });
-                   
-                   card.addEventListener('mouseleave', function() {
-                       this.style.transform = 'translateY(0)';
-                   });
-               });
-           });
-       }
-   </script>
+              
+              <!-- Section CTA -->
+              <div class="section-cta">
+                  <a href="#offers" class="cta-button cta-button-small">
+                      ✨ Ver la solución
+                  </a>
+              </div>
+          </section>
+          
+          <!-- Solution Section -->
+          <section class="solution-section fade-in">
+              <h2>¡La solución perfecta está aquí!</h2>
+              
+              <div class="solution-item">
+                  <div class="solution-emoji">🎨</div>
+                  <div class="solution-text">
+                      <strong>Diversión sin pantallas:</strong> Actividades creativas que capturan su atención por horas
+                  </div>
+              </div>
+              
+              <div class="solution-item">
+                  <div class="solution-emoji">✂️</div>
+                  <div class="solution-text">
+                      <strong>Desarrollo motor:</strong> Ejercicios perfectos para fortalecer sus manitas
+                  </div>
+              </div>
+              
+              <div class="solution-item">
+                  <div class="solution-emoji">🔢</div>
+                  <div class="solution-text">
+                      <strong>Aprendizaje divertido:</strong> Números y formas de manera súper entretenida
+                  </div>
+              </div>
+              
+              <div class="solution-item">
+                  <div class="solution-emoji">🖨️</div>
+                  <div class="solution-text">
+                      <strong>Listo para usar:</strong> Solo imprime y ¡a jugar! Sin complicaciones
+                  </div>
+              </div>
+          </section>
+          
+          <!-- Features -->
+          <section class="features fade-in">
+              <h2>🎉 ¡Todo lo que tu pequeño necesita!</h2>
+              
+              <div class="feature-item">
+                  <div class="feature-emoji">✂️</div>
+                  <div class="feature-text">
+                      <h3>Actividades para Recortar</h3>
+                      <p>Formas divertidas, animales y figuras que desarrollan la coordinación mano-ojo</p>
+                  </div>
+              </div>
+              
+              <div class="feature-item">
+                  <div class="feature-emoji">✏️</div>
+                  <div class="feature-text">
+                      <h3>Ejercicios de Motricidad</h3>
+                      <p>Trazos, líneas punteadas y laberintos para fortalecer los músculos de las manos</p>
+                  </div>
+              </div>
+              
+              <div class="feature-item">
+                  <div class="feature-emoji">🐶</div>
+                  <div class="feature-text">
+                      <h3>Animales para Colorear</h3>
+                      <p>Lindos gatitos, perritos, elefantes y más amiguitos esperando sus colores favoritos</p>
+                  </div>
+              </div>
+              
+              <div class="feature-item">
+                  <div class="feature-emoji">🔢</div>
+                  <div class="feature-text">
+                      <h3>Números 1-100 Ilustrados</h3>
+                      <p>Cada número viene con dibujos súper divertidos para colorear mientras aprende</p>
+                  </div>
+              </div>
+              
+              <div class="feature-item">
+                  <div class="feature-emoji">🏠</div>
+                  <div class="feature-text">
+                      <h3>Para usar en Casa</h3>
+                      <p>PDFs de alta calidad que puedes imprimir las veces que quieras</p>
+                  </div>
+              </div>
+              
+              <!-- Section CTA -->
+              <div class="section-cta">
+                  <a href="#offers" class="cta-button cta-button-small cta-button-green">
+                      🎨 ¡Lo quiero ahora!
+                  </a>
+              </div>
+          </section>
+          
+          <!-- Offers Section -->
+          <section class="offers-section fade-in" id="offers">
+              <h2>🎁 ¡Pack Completo de Diversión!</h2>
+              
+              <div class="offer-card">
+                  <div class="offer-header">
+                      <h3 class="offer-title">🌟 Pack Súper Completo</h3>
+                      <div class="offer-price">
+                          <span class="price-value">€12,90</span>
+                          <span class="price-period">Pago único</span>
+                      </div>
+                  </div>
+                  
+                  <div class="offer-content">
+                      <div class="offer-highlight">
+                          <strong>¡TODO lo que tu pequeño necesita para divertirse y aprender!</strong>
+                      </div>
+                      
+                      <div class="activity-grid">
+                          <div class="activity-item">
+                              <span class="activity-emoji">✂️</span>
+                              <div class="activity-title">Para Recortar</div>
+                              <div class="activity-count">50+ actividades</div>
+                          </div>
+                          
+                          <div class="activity-item">
+                              <span class="activity-emoji">✏️</span>
+                              <div class="activity-title">Motricidad</div>
+                              <div class="activity-count">40+ ejercicios</div>
+                          </div>
+                          
+                          <div class="activity-item">
+                              <span class="activity-emoji">🐶</span>
+                              <div class="activity-title">Colorear</div>
+                              <div class="activity-count">60+ animales</div>
+                          </div>
+                          
+                          <div class="activity-item">
+                              <span class="activity-emoji">🔢</span>
+                              <div class="activity-title">Números 1-100</div>
+                              <div class="activity-count">100 páginas</div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <a href="https://pay.hotmart.com/R101143240B?checkoutMode=10" class="cta-button" target="_blank">
+                      🛒 ¡Sí, lo quiero ahora!
+                  </a>
+              </div>
+              
+              <!-- Trust indicators -->
+              <div class="trust-indicators">
+                  <div class="trust-item">
+                      <span class="trust-icon">🔒</span>
+                      <span>Pago 100% seguro</span>
+                  </div>
+                  <div class="trust-item">
+                      <span class="trust-icon">⚡</span>
+                      <span>Descarga inmediata</span>
+                  </div>
+                  <div class="trust-item">
+                      <span class="trust-icon">🛡️</span>
+                      <span>Garantía 30 días</span>
+                  </div>
+              </div>
+          </section>
+          
+          <!-- Benefits -->
+          <section class="benefits fade-in">
+              <h2>¿Por qué los papás nos eligen?</h2>
+              
+              <div class="benefit-item">
+                  <div class="benefit-icon">🎯</div>
+                  <div class="benefit-text">
+                      <strong>Desarrollo integral:</strong> Motricidad, creatividad y números en un solo pack
+                  </div>
+              </div>
+              
+              <div class="benefit-item">
+                  <div class="benefit-icon">⏱️</div>
+                  <div class="benefit-text">
+                      <strong>Entretenimiento por horas:</strong> Tu pequeño estará feliz y ocupado creativamente
+                  </div>
+              </div>
+              
+              <div class="benefit-item">
+                  <div class="benefit-icon">💰</div>
+                  <div class="benefit-text">
+                      <strong>Súper económico:</strong> Menos que un juguete, pero con diversión para meses
+                  </div>
+              </div>
+              
+              <div class="benefit-item">
+                  <div class="benefit-icon">👨‍👩‍👧‍👦</div>
+                  <div class="benefit-text">
+                      <strong>Tiempo en familia:</strong> Actividades perfectas para hacer juntos y crear recuerdos
+                  </div>
+              </div>
+              
+              <div class="benefit-item">
+                  <div class="benefit-icon">🌱</div>
+                  <div class="benefit-text">
+                      <strong>Eco-friendly:</strong> Imprime solo lo que necesites, perfecto para varios niños
+                  </div>
+              </div>
+              
+              <!-- Section CTA -->
+              <div class="section-cta">
+                  <a href="#offers" class="cta-button cta-button-small" style="margin-top: 15px;">
+                      🎨 ¡Quiero empezar ya!
+                  </a>
+              </div>
+          </section>
+          
+          <!-- Testimonials -->
+          <section class="testimonials fade-in">
+              <h2>❤️ Lo que dicen mamás y papás:</h2>
+              
+              <div class="testimonial">
+                  <div class="stars">⭐⭐⭐⭐⭐</div>
+                  <p>"¡Mi hija de 4 años está obsesionada con los animales para colorear! Ya llevamos 3 semanas y sigue emocionada. Definitivamente la mejor compra del año."</p>
+                  <div class="testimonial-author">- Carmen L., Madrid</div>
+              </div>
+              
+              <div class="testimonial">
+                  <div class="stars">⭐⭐⭐⭐⭐</div>
+                  <p>"Los ejercicios de motricidad son increíbles. Mi hijo ha mejorado muchísimo con las tijeras y ya casi está listo para escribir. ¡Gracias!"</p>
+                  <div class="testimonial-author">- Miguel R., Barcelona</div>
+              </div>
+              
+              <div class="testimonial">
+                  <div class="stars">⭐⭐⭐⭐⭐</div>
+                  <p>"Perfecto para días de lluvia. Mis gemelos de 5 años se entretienen por horas. Ya no pelean por la tablet. ¡Recomendado 100%!"</p>
+                  <div class="testimonial-author">- Ana G., Valencia</div>
+              </div>
+              
+              <div class="testimonial">
+                  <div class="stars">⭐⭐⭐⭐⭐</div>
+                  <p>"Los números ilustrados son geniales. Mi pequeño ya reconoce hasta el 50 y se divierte coloreando. Una inversión que vale oro."</p>
+                  <div class="testimonial-author">- Carlos M., Sevilla</div>
+              </div>
+          </section>
+          
+          <!-- Guarantee -->
+          <section class="guarantee fade-in">
+              <span class="guarantee-icon">🛡️</span>
+              <h3>Garantía de Satisfacción Total</h3>
+              <p>Si por cualquier motivo no quedas 100% satisfecho con nuestro pack de actividades, te devolvemos tu dinero en los primeros 30 días. ¡Sin preguntas!</p>
+              
+              <!-- Section CTA -->
+              <div class="section-cta">
+                  <a href="#offers" class="cta-button cta-button-small cta-button-green" style="margin-top: 15px;">
+                      🛡️ ¡Probar sin riesgo!
+                  </a>
+              </div>
+          </section>
+          
+          <!-- FAQ -->
+          <section class="faq fade-in">
+              <h2>🤔 Preguntas frecuentes de mamás y papás</h2>
+              
+              <div class="faq-item">
+                  <div class="faq-question">🎯 ¿Para qué edades son estas actividades?</div>
+                  <div class="faq-answer">Perfecto para niños de 3 a 8 años. Las actividades están diseñadas para adaptarse a diferentes niveles de habilidad.</div>
+              </div>
+              
+              <div class="faq-item">
+                  <div class="faq-question">📱 ¿Cómo recibo las actividades?</div>
+                  <div class="faq-answer">Inmediatamente después del pago recibirás un email con el enlace de descarga. ¡Podrás empezar en menos de 5 minutos!</div>
+              </div>
+              
+              <div class="faq-item">
+                  <div class="faq-question">🖨️ ¿Qué tipo de impresora necesito?</div>
+                  <div class="faq-answer">Cualquier impresora casera funciona perfecto. Se ven genial tanto a color como en blanco y negro.</div>
+              </div>
+              
+              <div class="faq-item">
+                  <div class="faq-question">👶 ¿Mi hijo de 3 años podrá hacer todas las actividades?</div>
+                  <div class="faq-answer">¡Por supuesto! Incluimos actividades desde nivel principiante hasta más avanzado. Perfecto para ir progresando.</div>
+              </div>
+              
+              <div class="faq-item">
+                  <div class="faq-question">💰 ¿Es realmente solo €12,90?</div>
+                  <div class="faq-answer">Sí, es un pago único de €12,90. Sin mensualidades ni costos ocultos. Una sola vez y para siempre.</div>
+              </div>
+              
+              <div class="faq-item">
+                  <div class="faq-question">🔄 ¿Puedo imprimir las páginas varias veces?</div>
+                  <div class="faq-answer">¡Absolutamente! Puedes imprimir todas las veces que quieras. Perfecto si tienes varios niños o tu pequeño quiere repetir.</div>
+              </div>
+          </section>
+          
+          <!-- Final CTA -->
+          <section class="offers-section fade-in">
+              <h2>🎉 ¡Dale a tu pequeño la diversión que se merece!</h2>
+              
+              <div class="offer-card">
+                  <h3 class="offer-title">🌟 Pack Súper Completo</h3>
+                  <div class="offer-price">
+                      <div class="price-value">€12,90</div>
+                      <div class="price-period">✨ ¡Diversión garantizada!</div>
+                  </div>
+                  <a href="https://pay.hotmart.com/R101143240B?checkoutMode=10" class="cta-button" target="_blank">
+                      🛒 ¡SÍ, lo quiero AHORA!
+                  </a>
+              </div>
+              
+              <div style="text-align: center; margin-top: 20px; font-size: 0.9rem; color: #7f8c8d; line-height: 1.5;">
+                  ✅ Descarga inmediata después del pago<br>
+                  ✅ Pago seguro con PayPal y tarjeta<br>
+                  ✅ Garantía de 30 días sin preguntas<br>
+                  ✅ Acceso de por vida a todos los materiales
+              </div>
+          </section>
+          
+          <!-- Footer -->
+          <footer class="footer">
+              <p>© 2025 KinderKreativ. Todos los derechos reservados.</p>
+              <p style="margin-top: 10px;">
+                  ❤️ Hecho con amor para pequeños artistas
+              </p>
+              <p style="margin-top: 15px; font-size: 0.75rem;">
+                  <a href="#" style="color: #7f8c8d; text-decoration: none;">Aviso Legal</a> | 
+                  <a href="#" style="color: #7f8c8d; text-decoration: none;">Privacidad</a> | 
+                  <a href="#" style="color: #7f8c8d; text-decoration: none;">Términos</a>
+              </p>
+          </footer>
+      </div>
+  </div>
+  
+  <script>
+      // Smooth scroll animations
+      const observerOptions = {
+          threshold: 0.1,
+          rootMargin: '0px 0px -50px 0px'
+      };
+      
+      const observer = new IntersectionObserver(function(entries) {
+          entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                  entry.target.classList.add('visible');
+              }
+          });
+      }, observerOptions);
+      
+      // Observe all fade-in elements
+      document.addEventListener('DOMContentLoaded', function() {
+          const fadeElements = document.querySelectorAll('.fade-in');
+          fadeElements.forEach(element => {
+              observer.observe(element);
+          });
+          
+          // Add smooth scrolling to anchor links
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function (e) {
+                  e.preventDefault();
+                  const target = document.querySelector(this.getAttribute('href'));
+                  if (target) {
+                      target.scrollIntoView({
+                          behavior: 'smooth',
+                          block: 'start'
+                      });
+                  }
+              });
+          });
+          
+          // Add click effects to buttons
+          const buttons = document.querySelectorAll('.cta-button');
+          buttons.forEach(button => {
+              button.addEventListener('click', function(e) {
+                  this.style.transform = 'scale(0.95)';
+                  setTimeout(() => {
+                      this.style.transform = 'scale(1)';
+                  }, 150);
+              });
+          });
+      });
+      
+      // Add hover effects for desktop
+      if (window.innerWidth > 768) {
+          document.addEventListener('DOMContentLoaded', function() {
+              const cards = document.querySelectorAll('.offer-card, .feature-item');
+              cards.forEach(card => {
+                  card.addEventListener('mouseenter', function() {
+                      this.style.transform = 'translateY(-5px)';
+                  });
+                  
+                  card.addEventListener('mouseleave', function() {
+                      this.style.transform = 'translateY(0)';
+                  });
+              });
+          });
+      }
+  </script>
 </body>
 </html>
